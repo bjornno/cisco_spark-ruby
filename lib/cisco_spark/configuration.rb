@@ -6,8 +6,8 @@ module CiscoSpark
     attr_accessor *self.params
 
     def initialize
-      @api_version  = 'v1'
-      @api_domain   = 'api.ciscospark.com'
+      @api_version  = 'csdm'
+      @api_domain   = 'csdm-a.wbx2.com'
       @api_protocol = 'https'
       @debug        = false
     end
